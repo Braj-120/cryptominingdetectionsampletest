@@ -16,7 +16,7 @@ import os # accessing directory structure
 
 
 ```python
-for dirname, _, filenames in os.walk('G:\\bits_ss\\Dissertation\\archive'):
+for dirname, _, filenames in os.walk('C:\\'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 ```
