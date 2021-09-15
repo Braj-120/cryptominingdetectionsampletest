@@ -21,10 +21,7 @@ for dirname, _, filenames in os.walk('C:\\'):
         print(os.path.join(dirname, filename))
 ```
 
-    G:\bits_ss\Dissertation\archive\final-anormal-data-set.csv
-    G:\bits_ss\Dissertation\archive\final-complete-data-set.csv
-    G:\bits_ss\Dissertation\archive\final-dataset.csv
-    G:\bits_ss\Dissertation\archive\final-normal-data-set.csv
+    C:\\final-dataset.csv
     
 
 
