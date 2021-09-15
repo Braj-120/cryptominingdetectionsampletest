@@ -37,11 +37,6 @@ print(f'There are {nRow} rows and {nCol} columns')
     There are 95312 rows and 83 columns
     
 
-    C:\anaconda\lib\site-packages\IPython\core\interactiveshell.py:3071: DtypeWarning: Columns (14,19,26,27,52,57) have mixed types.Specify dtype option on import or set low_memory=False.
-      has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
-    
-
-
 ```python
 df1.head(5)
 ```
