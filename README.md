@@ -28,7 +28,7 @@ for dirname, _, filenames in os.walk('C:\\'):
 ```python
 nRowsRead = None # specify 'None' if want to read whole file
 # final-anormal-data-set.csv may have more rows in reality, but we are only loading/previewing the first 1000 rows
-df1 = pd.read_csv('G:\\bits_ss\\Dissertation\\archive\\final-dataset.csv', delimiter=',', nrows = nRowsRead)
+df1 = pd.read_csv('C:\\final-dataset.csv', delimiter=',', nrows = nRowsRead)
 df1.dataframeName = 'final-dataset.csv'
 nRow, nCol = df1.shape
 print(f'There are {nRow} rows and {nCol} columns')
